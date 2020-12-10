@@ -1,4 +1,4 @@
-        @import url('https://fonts.googleapis.com/css?family=Russo+One');
+               @import url('https://fonts.googleapis.com/css?family=Russo+One');
 
         @import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,700,800');
 
@@ -100,3 +100,71 @@ iframe {
     opacity: 1;
 }
 
+.mobile_sticky {
+    width: 0px; height: 0px;
+}
+
+.modalDialog {
+    display: none;
+}
+/* Мобильный дизайн */ 
+@media only screen and (max-width: 600px) {
+  html, body {
+    height: 100%; width: 100%; font-size: 10px; 
+  }
+  .sidebar {
+    display: none;
+  }
+  .scrolltotop {
+    display: none;
+  }
+  .page {
+    width: 90%; margin-left: 2%; margin-right: 2%;
+  }
+  .mobile_sticky {
+    width: 5%;
+    position:fixed;
+    color: white;
+    background: #434343;
+    font-size: 20px;
+    bottom: 97%;
+    top: 0%;
+    left: 90%;
+    height: 30px;
+    text-align: center;
+  }
+  .modalDialog {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: 99999;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    display: none;
+    pointer-events: none;
+    }
+
+.modalDialog:target {
+    display: block;
+    pointer-events: auto;
+    }
+
+.modalDialog > div {
+    width: 100%;
+    height: 100%;
+    margin: 0% auto;
+    padding: 5px 20px 13px 20px;
+    color: white;
+    background: #434343;
+    overflow: auto;
+    }
+
+.modalDialog a{ color: white;}
+    }
+
+.close { margin-left: 90%; text-align: center;}
+.close a { text-decoration: none; }
