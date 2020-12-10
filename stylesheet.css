@@ -1,0 +1,100 @@
+        @import url('https://fonts.googleapis.com/css?family=Russo+One');
+
+        @import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,700,800');
+
+        @import url('https://fonts.googleapis.com/css?family=Gugi');
+
+        * { margin: 0; padding: 0;}
+        
+        html, body { 
+        width: 100%;
+        height: 100%;
+        font-family: 'Helvetica Neue', 'Montserrat', 'Russo One';  
+        background: #E0F2E9;
+        color: black;
+        font-size: 14px;
+        }
+
+        /* Сайдбар */
+        .sidebar { color: white; height: 100%; width: 20%; background: #534B62; position: fixed;}
+        .sidebar_list { padding: 15px 10px 0px 20px; overflow: auto; height: 100%; position: fixed; width: 19%;}
+        .sidebar h3 { padding-top: 10px; padding-bottom: 10px; }
+        .sidebar a { color: white; }
+        .sidebar a:hover { color: red; font-size: 16px;}
+    /* Страница */
+    .page {
+    width: 48.83%;
+    margin-left: 28.07%; margin-right: 18.07%; margin-bottom: 0; position: relative;
+    padding-top: 0%; padding-left: 7.5%; padding-right: 7.5%;
+    background: #D5E5DD;
+    box-shadow: 0 0 7.5px 0 rgba(0,0,0,0.2);
+    font-size: 17px;
+    text-align: justify;
+    }
+
+    .page p  {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .page ol, ul {
+        padding-left: 35px;
+    }
+    /* Скроллбар */
+    ::-webkit-scrollbar {
+    width: 12px;
+    }
+
+    ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    }
+ 
+    ::-webkit-scrollbar-thumb {
+    background: #888; 
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+    }
+/* Настройки страницы */
+
+.page h1 { padding-top: 2%; font-size: 32px; text-decoration: underline; text-align: left;}
+.page h2 { font-size: 30px; }
+.page h3 { font-size: 28px; }
+.page h4 { font-size: 24px; }
+.page h5 { font-size: 20px; }
+.page h6 { font-size: 18px; }
+
+.page q { background-color: #BDCCC4; color: black; font-size: 18px; font-style: italic; padding: 0px; border: 0.75px dashed black; margin: 2px; quotes: "“" "”"; }/* Цитата */
+.page code {} /* Код */
+.page del {} /* Удалённый текст */
+
+   .page dfn { /* Термин с обозначением */
+    border: 0px dashed #7AA5A4; font-weight: bold;
+    quotes: " " " — "; /* Устанавливаем вид кавычек */
+   } 
+   .page dfn:before {
+    content: open-quote; /* Добавляем перед текстом открывающую кавычку */
+  }
+   .page dfn:after {
+    content: close-quote; /* Добавляем после текста закрывающую кавычку */
+   }
+
+.page em {} /* Акцентирование чего-либо в тексте */
+.page mark { border: 0.1px dotted black; color: red; background-color: none;} /* Выделение текста */
+
+/* Айфрейм */
+iframe {
+    width: 100%;
+    height: 500px;
+}
+
+/* Кнопка "Наверх" */
+
+.scrolltotop {
+ opacity: 0.5;width: 5%;position: fixed;background: #D5E5DD;top:auto;bottom: 2%;height: 2.5%; margin-top: 1.25%, margin-bottom: 1.25%; text-align: center; right:0px;left:auto;
+}
+
+.scrolltotop:hover {
+    opacity: 1;
+}
