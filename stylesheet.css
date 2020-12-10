@@ -15,17 +15,18 @@
         font-size: 14px;
         }
 
-        /* Сайдбар */
-        .sidebar { color: white; height: 100%; width: 20%; background: #534B62; position: fixed;}
-        .sidebar_list { padding: 15px 10px 0px 20px; overflow: auto; height: 100%; position: fixed; width: 19%;}
-        .sidebar h3 { padding-top: 10px; padding-bottom: 10px; }
-        .sidebar a { color: white; }
-        .sidebar a:hover { color: red; font-size: 16px;}
+    /* Сайдбар */
+    .sidebar { color: #275952;; height: 100%; width: 20%; background: #D5E5DD; position: fixed;}
+    .sidebar_list { padding: 15px 10px 0px 20px; overflow: auto; height: 100%; position: fixed; width: 19%;}
+    .sidebar h3 { padding-top: 10px; padding-bottom: 10px; }
+    .sidebar a { color: black; }
+    .sidebar a:hover { color: black; background: white; font-size: 16px;}
+    .number { background: #434343; color: white; padding-left: 20px; padding-right: 5px; margin-right: 2.5px; font-size: 20px; text-align: center;}
     /* Страница */
     .page {
-    width: 48.83%;
+    width: 55%;
     margin-left: 28.07%; margin-right: 18.07%; margin-bottom: 0; position: relative;
-    padding-top: 0%; padding-left: 7.5%; padding-right: 7.5%;
+    padding-top: 0%; padding-left: 2%; padding-right: 2%;
     background: #D5E5DD;
     box-shadow: 0 0 7.5px 0 rgba(0,0,0,0.2);
     font-size: 17px;
@@ -58,12 +59,12 @@
     }
 /* Настройки страницы */
 
-.page h1 { padding-top: 2%; font-size: 32px; text-decoration: underline; text-align: left;}
-.page h2 { font-size: 30px; }
-.page h3 { font-size: 28px; }
-.page h4 { font-size: 24px; }
-.page h5 { font-size: 20px; }
-.page h6 { font-size: 18px; }
+.page h1 { padding-top: 2%; font-size: 32px; text-decoration: underline; text-align: left; padding: 2.5px;}
+.page h2 { font-size: 30px; padding: 2.5px;}
+.page h3 { font-size: 24px; padding: 2.5px;}
+.page h4 { font-size: 24px; padding: 2.5px;}
+.page h5 { font-size: 20px; padding: 2.5px;}
+.page h6 { font-size: 18px; padding: 2.5px;}
 
 .page q { background-color: #BDCCC4; color: black; font-size: 18px; font-style: italic; padding: 0px; border: 0.75px dashed black; margin: 2px; quotes: "“" "”"; }/* Цитата */
 .page code {} /* Код */
@@ -98,3 +99,4 @@ iframe {
 .scrolltotop:hover {
     opacity: 1;
 }
+
