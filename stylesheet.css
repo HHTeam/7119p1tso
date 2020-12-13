@@ -1,4 +1,4 @@
-          @import url('https://fonts.googleapis.com/css?family=Russo+One');
+        @import url('https://fonts.googleapis.com/css?family=Russo+One');
 
         @import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,700,800');
 
@@ -15,6 +15,18 @@
         font-size: 14px;
         }
 
+        .mainpage {
+            font-size: 17px;
+            text-decoration: none;
+            color: black;
+        }
+
+        .mainpage:hover {
+            font-size: 17px;
+            text-decoration: none;
+            color: white;
+            background: black;
+        }
     /* Сайдбар */
     .sidebar { color: #275952;; height: 100%; width: 20%; background: #D5E5DD; position: fixed;}
     .sidebar_list { padding: 15px 10px 0px 20px; overflow: auto; height: 100%; position: fixed; width: 19%;}
@@ -33,12 +45,24 @@
     text-align: justify;
     }
 
-    .page p  {
+    .page-special {
+    width: 60%;
+    height: auto;
+    margin-left: 20%; margin-right: 20%; margin-bottom: 0; margin-top: 2.5%; position: relative;
+    padding-top: 0%; padding-left: 2%; padding-right: 2%;
+    background: #D5E5DD;
+    box-shadow: 0 0 7.5px 0 rgba(0,0,0,0.2);
+    font-size: 17px;
+    text-align: justify;
+    }
+
+    .page-special h1 { font-size: 16px; }
+    p  {
         padding-top: 5px;
         padding-bottom: 5px;
     }
 
-    .page ol, ul {
+    ol, ul {
         padding-left: 35px;
     }
     /* Скроллбар */
@@ -126,19 +150,24 @@ td { border: 0.5px black dotted; padding: 5px; }
 }
 /* Мобильный дизайн */ 
 @media only screen and (max-width: 600px) {
-  html, body {
-    height: 100%; width: 100%; font-size: 10px; 
-  }
-  .sidebar {
-    display: none;
-  }
-  .scrolltotop {
-    display: none;
-  }
-  .page {
-    width: 90%; margin-left: 2%; margin-right: 2%; background: #f8f8f8;
-  }
-  .mobile_sticky {
+  html, body { height: 100%; width: 100%; font-size: 10px; }
+  .sidebar { display: none; }
+  .scrolltotop { display: none; }
+  .page { width: 90%; margin-left: 2%; margin-right: 2%; background: #f8f8f8; }
+  .page-special { 
+    width: 60%;
+    height: 100%;
+    margin-left: 20%; margin-right: 20%; margin-bottom: 0; margin-top: 2.5%; position: relative;
+    padding-top: 0%; padding-left: 2%; padding-right: 2%; position: fixed;
+    background: #D5E5DD;
+    box-shadow: 0 0 7.5px 0 rgba(0,0,0,0.2);
+    font-size: 17px;
+    text-align: justify;
+    display: block;
+}
+.page-special h1 { font-size: 12px; }
+.page-special h2 { font-size: 14px; }
+    .mobile_sticky {
     width: 5%;
     position:fixed;
     color: white;
