@@ -1,4 +1,4 @@
-/* Шрифты(проверить на работоспособность) */ 
+    /* Шрифты(проверить на работоспособность) */ 
 
         @import url('https://fonts.googleapis.com/css?family=Russo+One');
         @import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,700,800');
@@ -29,7 +29,9 @@
          .page-special h1 { font-size: 16px; }
 
 /* Форматирование */
-
+        .fl-r { float: right; }
+        .fl-l { float: left; }
+        .fl-n { padding-left: 40%; }
         p  { padding-top: 5px; padding-bottom: 5px; }
         ol, ul { padding-left: 35px; }
         .page h1 { -moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; -o-user-select: none; user-select: none; padding-top: 2%; font-size: 32px; text-decoration: underline; text-align: left; padding: 2.5px;}
@@ -61,9 +63,8 @@
 
 /* Таблица*/
 
-        table { text-align: center;}
         td { border: 0.5px black dotted; padding: 5px; }
-        .answers { moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; -o-user-select: none; user-select: none; }
+        .answers { text-align: center; moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; -o-user-select: none; user-select: none; }
 
 /* Кнопка "Наверх" */
 
