@@ -31,7 +31,7 @@
 /* Форматирование */
         .fl-r { float: right; }
         .fl-l { float: left; }
-        .fl-n { padding-left: 40%; }
+        .fl-n { float: center; }
         p  { padding-top: 5px; padding-bottom: 5px; }
         ol, ul { padding-left: 35px; }
         .page h1 { -moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; -o-user-select: none; user-select: none; padding-top: 2%; font-size: 32px; text-decoration: underline; text-align: left; padding: 2.5px;}
@@ -48,7 +48,7 @@
         .page dfn:before { content: open-quote; /* Добавляем перед текстом открывающую кавычку */  }
         .page dfn:after {  content: close-quote; /* Добавляем после текста закрывающую кавычку */ }
         .page em {} /* Акцентирование чего-либо в тексте */
-        .page mark { border: 0.1px dotted black; color: red; background-color: none;} /* Выделение текста */
+        .page mark { border: 0.1px dotted black; color: red; background-color: yellow;} /* Выделение текста */
 
  /* Красивый скроллбар */
 
