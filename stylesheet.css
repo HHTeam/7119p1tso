@@ -29,9 +29,9 @@
          .page-special h1 { font-size: 16px; }
 
 /* Форматирование */
-        .fl-r { float: right; }
-        .fl-l { float: left; }
-        .fl-n { float: center; }
+        .fl-r { float: right; height: 70%; width: 70%;}
+        .fl-l { float: left; height: 70%; width: 70%;}
+        .fl-n { float: center; height: 70%; width: 70%;}
         p  { padding-top: 5px; padding-bottom: 5px; }
         ol, ul { padding-left: 35px; }
         .page h1 { padding-top: 2%; font-size: 32px; text-decoration: underline; text-align: left; padding: 2.5px;}
