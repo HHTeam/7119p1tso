@@ -31,7 +31,7 @@
 /* Форматирование */
         .fl-r { float: right;}
         .fl-l { float: left;}
-        .fl-n { float: center;}
+        .fl-n { float: center; text-align: center;}
         p  { padding-top: 5px; padding-bottom: 5px; }
         ol, ul { padding-left: 35px; }
         .page h1 { padding-top: 2%; font-size: 32px; text-decoration: underline; text-align: left; padding: 2.5px;}
